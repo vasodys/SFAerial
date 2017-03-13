@@ -10,7 +10,7 @@ function getData() {
     $.ajax({
         type: "GET",
         dataType: "json",
-        crossDomain: false,
+        crossDomain: true,
         url: "http://benjaminmayo.co.uk/scripts/apple-tv-screensavers.json",
         success: onDataReceived
     });
