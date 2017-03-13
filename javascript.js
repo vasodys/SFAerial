@@ -11,7 +11,7 @@ function getData() {
         type: "GET",
         dataType: "json",
         crossDomain: false,
-        url: "http://benjaminmayo.co.uk/scripts/apple-tv-screensavers.json",
+        url: "https://benjaminmayo.co.uk/scripts/apple-tv-screensavers.json",
         success: onDataReceived
     });
 
